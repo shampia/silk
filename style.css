@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1160px;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 28px 0px;
+    position: absolute;
+    z-index: 99;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 47px;
+}
+
+header nav ul li {
+    padding: 0px 15px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+}
+
+header nav ul li.active a {
+    color: #F49F0A;
+}
+
+header nav {
+    position: relative;
+}
+
+section.explore {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+section.explore .explore-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+section.explore .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.explore h2 {
+    font-size: 64px;
+    max-width: 897px;
+    text-align: center;
+    padding-left: 250px;
+}
+
+section.explore a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 23px;
+    margin-top: 60px;
+    margin-left: 570px;
+}
+
+section.explore a span.text {
+    padding: 1.875rem 3rem 1.875rem 3rem;
+    border-radius: 32px;
+    border: 3px solid white ; 
+    display: inline-block;
+    line-height: 0;  
+}
+
+/*service*/
+
+.service-title h2{
+    color:  #667077;
+    text-align: center;
+    font-size: 16px;
+    padding: 120px 435px 44px 452px;
+}
+
+.service-information img{
+    color:  #25563f;
+    font-size: 4.75rem;
+    width: 20%;
+    margin: 0px 35px;
+}
+
+.service-information h2{
+    color: #252936;
+    font-size: 14px;
+    width: 40%;
+    text-align: center;
+}
+
+.service-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 140px;
+}
+
+/*benefits*/
+
+.benefit-information{
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    gap: 50px;
+    padding-bottom: 150PX;
+}
+
+.benefit-text h2{
+    color:#252936 ; 
+    font-size: 34px; 
+}
+
+.benefit-text p{
+    color:  #667077;
+    font-size: 18px;
+}
+
+.benefit-list ul{
+    list-style: none;
+}
+
+.benefit-list strong{
+    color:  #667077;
+}
+
+.benefit-img{
+    width: 50%;
+    height: 100%;  
+    padding-left: 5%; 
+}
+
+.benefit-text{
+    padding-right: 5%;
+    width: 50%;
+}
+
+.libero-id{
+    display: flex;
+    flex-direction: row;
+    background-color: #3f465c;
+    gap: 80px;
+    padding-top: 145px;
+    padding-bottom: 130px;
+}
+
+.libero-id-text h2{
+    font-size: 40px;
+}
+
+.libero-id-text p{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.libero-id-text{
+    padding-left: 190px;
+    text-align: center;
+    width: 50%;
+}
+
+.libero-id-text a span{
+    padding: 1.875rem 3rem 1.875rem 3rem;
+    border-radius: 32px;
+    border: 3px solid white ; 
+    display: inline-block;
+    line-height: 0;  
+}
+
+/*feature*/
+
+.feature-information{
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    gap: 50px;
+}
+
+.feature-text h2{
+    color:#252936 ; 
+    font-size: 34px; 
+}
+
+.feature-text p{
+    color:  #667077;
+    font-size: 18px;
+}
+
+.feature-list ul{
+    list-style: none;
+}
+
+.feature-list strong{
+    color:  #667077;
+}
+
+.feature-img{
+    width: 50%;
+    height: 100%;  
+    padding-right: 25%; 
+}
+
+.feature-text{
+    padding-left: 25%;
+}
+
+/*elit sed*/
+
+.elit-sed-title h2{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    padding-top: 250px;
+}
+
+.elit-sed-logos{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+    max-width: 897px;
+    gap: 50px;
+    padding-top: 100px;
+    
+}
+
+/*contact*/
+
+.contact-container h2{
+    color: #252936;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.contact-container p{
+    color: #667077;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+form{
+    width: 820px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 992px;
+}
+
+.form-control-input{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    border: 2px solid #e6e7ec;
+    background-color: #ffffff;
+    color: #667077;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: "Poppins";
+    -webkit-appearance: none;
+    position: relative;
+    margin-bottom: 1.375rem;
+
+}
+
+.group{
+    padding: 75px;
+}
+
+.form-control-textarea {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    border: 2px solid #e6e7ec;
+    background-color: #ffffff;
+    color: #667077;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: "Poppins";
+    -webkit-appearance: none
+ }
+
+ .form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    border: 2px solid #25563f;
+    border-radius: 32px;
+    background-color: #25563f;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+    font-family: "Poppins";
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+footer{
+    background-color:  #252936;
+    padding-top: 88px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container{
+    padding-left: 100px;
+    align-items: center;
+}
+
+.footer-list ul{
+    list-style: none;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.logo-image{
+    display: block;
+    width: 230px;
+    height: 100%;
+    margin-bottom: 0.75rem;
+    opacity: 0.7;
+}
+
+.footer-list ul li{
+    padding-top: 10px;
+}
+
+.soc-qsel-logo{
+    padding-left: 410px;
+    padding-top: 70px;
+}
+
+.soc-qsel-logo a{
+    color: #667077;
+    text-decoration: underline;
+}
+
+.soc-qsel-logo img{
+    margin-right: 12px;
+    margin-left: 12px;
+}
